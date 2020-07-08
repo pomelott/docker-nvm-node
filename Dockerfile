@@ -7,4 +7,4 @@ RUN  echo $(nvm) && \
      nvm install 10.12.0 && \
      nvm use 10.12.0 && \
      npm install -g nrm
-CMD ["node"]
+CMD ["/bin/bash"]
