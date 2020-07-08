@@ -9,4 +9,4 @@ RUN apk update && apk upgrade && \
     echo $(nvm) && \
     nvm install 10.12.0 && \
     echo ${node -v} && \
-    echo $(npm -v) && \
+    echo $(npm -v)
