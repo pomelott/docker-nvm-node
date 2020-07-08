@@ -8,4 +8,5 @@ RUN apk update && apk upgrade && \
     [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && \
     echo $(nvm) && \
     nvm install 10.12.0 && \
-    nvm use 10.12.0
+    echo ${node -v} && \
+    echo $(npm -v) && \
