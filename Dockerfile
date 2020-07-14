@@ -6,5 +6,6 @@ RUN  apt-get update && \
      [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && \
      nvm install 10.12.0 && \
      nvm use 10.12.0 && \
-     npm install -g nrm yarn
+     npm install -g nrm yarn && \
+     nrm use taobao
 CMD ["node"]
